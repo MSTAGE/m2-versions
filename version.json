@@ -1,0 +1,37 @@
+{
+    '2.3.5': {
+        'eol': '2022-04-24',
+        'ga' : '2020-03-09',
+        'hasNextMajor': '2.4.4',
+        'hasNextPatch': false
+    },
+    '2.4.4': {
+        'eol': '2025-04-24',
+        'ga' : '2021-03-09',
+        'hasNextMajor': '2.4.5',
+        'hasNextPatch': false
+    },
+    '2.4.5': {
+        'eol': '2025-08-09',
+        'ga' : '2022-03-09',
+        'hasNextMajor': '2.4.6',
+        'hasNextPatch': false
+    },
+    '2.4.6': {
+        'hasNextMajor': '2.4.7',
+        'hasNextPatch': 'p1',
+        'ga' : '2023-03-09',
+        'eol': '2026-03-14',
+        'p1' : {'ga' : '2023-03-09', 'hasNextPatch': 'p2'},
+        'p2' : {'ga' : '2023-03-09', 'hasNextPatch': 'p3'},
+        'p3' : {'ga' : '2023-03-09', 'hasNextPatch': 'p4'},
+        'p4' : {'ga' : '2024-02-13', 'hasNextPatch': 'p5'},
+        'p5' : {'ga' : '2024-04-09', 'hasNextPatch': false},
+    },
+    '2.4.7': {
+        'hasNextMajor': false,
+        'hasNextPatch': false,
+        'ga' : '2024-04-09',
+        'eol': '2026-03-14',
+    }
+}
