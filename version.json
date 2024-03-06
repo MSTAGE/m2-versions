@@ -53,7 +53,7 @@
         "p3" : {"ga" : "2023-06-13", "hasNextPatch": "p4"},
         "p4" : {"ga" : "2023-08-08", "hasNextPatch": "p5"},
         "p5" : {"ga" : "2023-10-10", "hasNextPatch": "p6"},
-        "p5" : {"ga" : "2024-02-13", "hasNextPatch": false}
+        "p6" : {"ga" : "2024-02-13", "hasNextPatch": false}
     },
     "2.4.6": {
         "hasNextMajor": "2.4.7",
