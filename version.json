@@ -26,7 +26,7 @@
         "p2" : {"ga" : "2023-03-09", "hasNextPatch": "p3"},
         "p3" : {"ga" : "2023-03-09", "hasNextPatch": "p4"},
         "p4" : {"ga" : "2024-02-13", "hasNextPatch": "p5"},
-        "p5" : {"ga" : "2024-04-09", "hasNextPatch": false},
+        "p5" : {"ga" : "2024-04-09", "hasNextPatch": false}
     },
     "2.4.7": {
         "hasNextMajor": false,
