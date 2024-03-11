@@ -1,5 +1,8 @@
 {
-    "data-source": "https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html",
+    "data-source": [
+        "https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html",
+        "https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html"
+    ],
     "2.3.5": {
         "eol": "2022-04-24",
         "ga" : "2020-03-09",
@@ -41,7 +44,11 @@
         "p4" : {"ga" : "2023-06-13", "hasNextPatch": "p5"},
         "p5" : {"ga" : "2023-08-08", "hasNextPatch": "p6"},
         "p6" : {"ga" : "2023-10-10", "hasNextPatch": "p7"},
-        "p7" : {"ga" : "2024-02-13", "hasNextPatch": false}
+        "p7" : {"ga" : "2024-02-13", "hasNextPatch": "p8"},
+        "p8" : {"ga" : "2024-04-09", "hasNextPatch": "p9"},
+        "p9" : {"ga" : "2024-06-11", "hasNextPatch": "p10"},
+        "p10" : {"ga" : "2024-08-13", "hasNextPatch": "p11"},
+        "p11" : {"ga" : "2024-10-08", "hasNextPatch": false}
     },
     "2.4.5": {
         "eol": "2025-08-09",
@@ -53,7 +60,11 @@
         "p3" : {"ga" : "2023-06-13", "hasNextPatch": "p4"},
         "p4" : {"ga" : "2023-08-08", "hasNextPatch": "p5"},
         "p5" : {"ga" : "2023-10-10", "hasNextPatch": "p6"},
-        "p6" : {"ga" : "2024-02-13", "hasNextPatch": false}
+        "p6" : {"ga" : "2024-02-13", "hasNextPatch": "p7"},
+        "p7" : {"ga" : "2024-04-09", "hasNextPatch": "p8"},
+        "p8" : {"ga" : "2024-06-11", "hasNextPatch": "p9"},
+        "p9" : {"ga" : "2024-08-13", "hasNextPatch": "p10"},
+        "p10" : {"ga" : "2024-10-08", "hasNextPatch": false}
     },
     "2.4.6": {
         "hasNextMajor": "2.4.7",
@@ -63,12 +74,19 @@
         "p1" : {"ga" : "2023-06-13", "hasNextPatch": "p2"},
         "p2" : {"ga" : "2023-08-08", "hasNextPatch": "p3"},
         "p3" : {"ga" : "2023-10-10", "hasNextPatch": "p4"},
-        "p4" : {"ga" : "2024-02-13", "hasNextPatch": false}
+        "p4" : {"ga" : "2024-02-13", "hasNextPatch": "p5"},
+        "p5" : {"ga" : "2024-04-09", "hasNextPatch": "p6"},
+        "p6" : {"ga" : "2024-06-11", "hasNextPatch": "p7"},
+        "p7" : {"ga" : "2024-08-13", "hasNextPatch": "p8"},
+        "p8" : {"ga" : "2024-10-08", "hasNextPatch": false}
     },
     "2.4.7": {
         "hasNextMajor": false,
-        "hasNextPatch": false,
+        "hasNextPatch": "p1",
         "ga" : "2024-04-09",
-        "eol": "2026-03-14"
+        "eol": "2026-03-14",
+        "p1" : {"ga" : "2024-06-11", "hasNextPatch": "p2"},
+        "p2" : {"ga" : "2024-08-13", "hasNextPatch": "p3"},
+        "p3" : {"ga" : "2024-10-08", "hasNextPatch": false}
     }
 }
