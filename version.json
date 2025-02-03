@@ -48,7 +48,9 @@
         "p8" : {"ga" : "2024-04-09", "hasNextPatch": "p9"},
         "p9" : {"ga" : "2024-06-11", "hasNextPatch": "p10"},
         "p10" : {"ga" : "2024-08-13", "hasNextPatch": "p11"},
-        "p11" : {"ga" : "2024-10-08", "hasNextPatch": false}
+        "p11" : {"ga" : "2024-10-08", "hasNextPatch": "p12"},
+        "p12" : {"ga" : "2025-02-11", "hasNextPatch": "p13"},
+        "p13" : {"ga" : "2025-04-08", "hasNextPatch": false}
     },
     "2.4.5": {
         "eol": "2025-08-09",
@@ -64,13 +66,17 @@
         "p7" : {"ga" : "2024-04-09", "hasNextPatch": "p8"},
         "p8" : {"ga" : "2024-06-11", "hasNextPatch": "p9"},
         "p9" : {"ga" : "2024-08-13", "hasNextPatch": "p10"},
-        "p10" : {"ga" : "2024-10-08", "hasNextPatch": false}
+        "p10" : {"ga" : "2024-10-08", "hasNextPatch": "p11"},
+        "p11" : {"ga" : "2025-02-11", "hasNextPatch": "p12"},
+        "p12" : {"ga" : "2025-04-08", "hasNextPatch": "p13"},
+        "p13" : {"ga" : "2025-06-10", "hasNextPatch": "p14"},
+        "p14" : {"ga" : "2025-08-12", "hasNextPatch": false}
     },
     "2.4.6": {
         "hasNextMajor": "2.4.7",
         "hasNextPatch": "p1",
         "ga" : "2023-03-14",
-        "eol": "2026-03-14",
+        "eol": "2026-08-11",
         "p1" : {"ga" : "2023-06-13", "hasNextPatch": "p2"},
         "p2" : {"ga" : "2023-08-08", "hasNextPatch": "p3"},
         "p3" : {"ga" : "2023-10-10", "hasNextPatch": "p4"},
@@ -78,15 +84,34 @@
         "p5" : {"ga" : "2024-04-09", "hasNextPatch": "p6"},
         "p6" : {"ga" : "2024-06-11", "hasNextPatch": "p7"},
         "p7" : {"ga" : "2024-08-13", "hasNextPatch": "p8"},
-        "p8" : {"ga" : "2024-10-08", "hasNextPatch": false}
+        "p8" : {"ga" : "2024-10-08", "hasNextPatch": "p9"},
+        "p9" : {"ga" : "2025-02-11", "hasNextPatch": "p10"},
+        "p10" : {"ga" : "2025-04-08", "hasNextPatch": "p11"},
+        "p11" : {"ga" : "2025-06-10", "hasNextPatch": "p12"},
+        "p12" : {"ga" : "2025-08-12", "hasNextPatch": "p13"},
+        "p13" : {"ga" : "2025-10-14", "hasNextPatch": false}
     },
     "2.4.7": {
-        "hasNextMajor": false,
+        "hasNextMajor": "2.4.8",
         "hasNextPatch": "p1",
         "ga" : "2024-04-09",
-        "eol": "2026-03-14",
+        "eol": "2027-04-09",
         "p1" : {"ga" : "2024-06-11", "hasNextPatch": "p2"},
         "p2" : {"ga" : "2024-08-13", "hasNextPatch": "p3"},
-        "p3" : {"ga" : "2024-10-08", "hasNextPatch": false}
+        "p3" : {"ga" : "2024-10-08", "hasNextPatch": "p4"},
+        "p4" : {"ga" : "2025-02-11", "hasNextPatch": "p5"},
+        "p5" : {"ga" : "2025-04-08", "hasNextPatch": "p6"},
+        "p6" : {"ga" : "2025-06-10", "hasNextPatch": "p7"},
+        "p7" : {"ga" : "2025-08-12", "hasNextPatch": "p8"},
+        "p8" : {"ga" : "2025-10-14", "hasNextPatch": false}
+    },
+    "2.4.8": {
+        "hasNextMajor": false,
+        "hasNextPatch": "p1",
+        "ga" : "2024-04-08",
+        "eol": "2027-03-14",
+        "p1" : {"ga" : "2025-06-10", "hasNextPatch": "p1"},
+        "p2" : {"ga" : "2025-08-12", "hasNextPatch": "p2"},
+        "p3" : {"ga" : "2025-10-14", "hasNextPatch": false}
     }
 }
