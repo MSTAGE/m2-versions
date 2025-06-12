@@ -111,7 +111,7 @@
         "ga" : "2025-04-08",
         "eol": "2028-03-14",
         "p1" : {"ga" : "2025-06-10", "hasNextPatch": "p1"},
-        "p2" : {"ga" : "2025-08-12", "hasNextPatch": "p2"},
+        "p2" : {"ga" : "2025-08-12", "hasNextPatch": "p3"},
         "p3" : {"ga" : "2025-10-14", "hasNextPatch": false}
     }
 }
